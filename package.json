@@ -17,12 +17,12 @@
   },
   "devDependencies": {
     "@angular/cli": "^9.1.12",
-    "@angular/common": "^9.0.1",
-    "@angular/compiler": "^9.0.1",
-    "@angular/compiler-cli": "^9.0.1",
-    "@angular/core": "^9.0.1",
-    "@angular/forms": "^9.0.1",
-    "@angular/platform-browser": "^9.0.1",
+    "@angular/common": "^9.1.12",
+    "@angular/compiler": "^9.1.12",
+    "@angular/compiler-cli": "^9.1.12",
+    "@angular/core": "^9.1.12",
+    "@angular/forms": "^9.1.12",
+    "@angular/platform-browser": "^9.1.12",
     "codelyzer": "^5.2.1",
     "rimraf": "^3.0.2",
     "rollup": "^1.31.0",
@@ -34,7 +34,7 @@
     "rxjs": "^6.5.4",
     "typescript": "^3.2.2",
     "uglify-js": "^3.7.7",
-    "zone.js": "~0.10.2"
+    "zone.js": "~0.10.3"
   },
   "files": [
     "dist/"
