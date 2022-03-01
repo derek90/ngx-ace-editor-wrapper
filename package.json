@@ -58,5 +58,8 @@
   "author": "Derek Baker",
   "bugs": {
     "url": "https://github.com/derek90/ngx-ace-editor-wrapper/issues"
+  },
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/derekbaker/ngx-ace-editor-wrapper"
   }
 }
