@@ -1,5 +1,5 @@
 {
-  "name": "@derek90/ngx-ace-editor-wrapper",
+  "name": "ngx-ace-editor-wrapper",
   "version": "12.2.16",
   "description": "A fork from ng2-ace-editor updated to work with Angular 12",
   "homepage": "https://github.com/martinpagesaal/ngx-ace-editor-wrapper",
@@ -60,6 +60,6 @@
     "url": "https://github.com/derek90/ngx-ace-editor-wrapper/issues"
   },
   "publishConfig": {
-    "registry": "https://registry.npmjs.org/derekbaker/ngx-ace-editor-wrapper"
+    "registry": "https://registry.npmjs.org/derekbaker"
   }
 }
