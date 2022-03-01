@@ -122,7 +122,31 @@
         }
     }
     AceEditorDirective.ɵfac = function AceEditorDirective_Factory(t) { return new (t || AceEditorDirective)(i0["ɵɵdirectiveInject"](i0.ElementRef), i0["ɵɵdirectiveInject"](i0.NgZone)); };
-    AceEditorDirective.ɵdir = i0["ɵɵdefineDirective"]({ type: AceEditorDirective, selectors: [["", "ace-editor", ""]], inputs: { options: "options", readOnly: "readOnly", theme: "theme", mode: "mode", text: "text", autoUpdateContent: "autoUpdateContent", durationBeforeCallback: "durationBeforeCallback" }, outputs: { textChanged: "textChanged", textChange: "textChange" } });
+    AceEditorDirective.ɵdir = /*@__PURE__*/ i0["ɵɵdefineDirective"]({ type: AceEditorDirective, selectors: [["", "ace-editor", ""]], inputs: { options: "options", readOnly: "readOnly", theme: "theme", mode: "mode", text: "text", autoUpdateContent: "autoUpdateContent", durationBeforeCallback: "durationBeforeCallback" }, outputs: { textChanged: "textChanged", textChange: "textChange" } });
+    (function () { (typeof ngDevMode === "undefined" || ngDevMode) && i0["ɵsetClassMetadata"](AceEditorDirective, [{
+            type: i0.Directive,
+            args: [{
+                    selector: '[ace-editor]'
+                }]
+        }], function () { return [{ type: i0.ElementRef }, { type: i0.NgZone }]; }, { textChanged: [{
+                type: i0.Output
+            }], textChange: [{
+                type: i0.Output
+            }], options: [{
+                type: i0.Input
+            }], readOnly: [{
+                type: i0.Input
+            }], theme: [{
+                type: i0.Input
+            }], mode: [{
+                type: i0.Input
+            }], text: [{
+                type: i0.Input
+            }], autoUpdateContent: [{
+                type: i0.Input
+            }], durationBeforeCallback: [{
+                type: i0.Input
+            }] }); })();
 
     class AceEditorComponent {
         constructor(elementRef, zone) {
@@ -270,16 +294,67 @@
         }
     }
     AceEditorComponent.ɵfac = function AceEditorComponent_Factory(t) { return new (t || AceEditorComponent)(i0["ɵɵdirectiveInject"](i0.ElementRef), i0["ɵɵdirectiveInject"](i0.NgZone)); };
-    AceEditorComponent.ɵcmp = i0["ɵɵdefineComponent"]({ type: AceEditorComponent, selectors: [["ace-editor"]], inputs: { style: "style", options: "options", readOnly: "readOnly", theme: "theme", mode: "mode", value: "value", text: "text", autoUpdateContent: "autoUpdateContent", durationBeforeCallback: "durationBeforeCallback" }, outputs: { textChanged: "textChanged", textChange: "textChange" }, features: [i0["ɵɵProvidersFeature"]([{
+    AceEditorComponent.ɵcmp = /*@__PURE__*/ i0["ɵɵdefineComponent"]({ type: AceEditorComponent, selectors: [["ace-editor"]], inputs: { style: "style", options: "options", readOnly: "readOnly", theme: "theme", mode: "mode", value: "value", text: "text", autoUpdateContent: "autoUpdateContent", durationBeforeCallback: "durationBeforeCallback" }, outputs: { textChanged: "textChanged", textChange: "textChange" }, features: [i0["ɵɵProvidersFeature"]([{
                     provide: forms.NG_VALUE_ACCESSOR,
                     useExisting: i0.forwardRef(() => AceEditorComponent),
                     multi: true
                 }])], decls: 0, vars: 0, template: function AceEditorComponent_Template(rf, ctx) { }, styles: ["[_nghost-%COMP%] { display:block;width:100%; }"] });
+    (function () { (typeof ngDevMode === "undefined" || ngDevMode) && i0["ɵsetClassMetadata"](AceEditorComponent, [{
+            type: i0.Component,
+            args: [{
+                    selector: 'ace-editor',
+                    template: '',
+                    styles: [':host { display:block;width:100%; }'],
+                    providers: [{
+                            provide: forms.NG_VALUE_ACCESSOR,
+                            useExisting: i0.forwardRef(() => AceEditorComponent),
+                            multi: true
+                        }]
+                }]
+        }], function () { return [{ type: i0.ElementRef }, { type: i0.NgZone }]; }, { textChanged: [{
+                type: i0.Output
+            }], textChange: [{
+                type: i0.Output
+            }], style: [{
+                type: i0.Input
+            }], options: [{
+                type: i0.Input
+            }], readOnly: [{
+                type: i0.Input
+            }], theme: [{
+                type: i0.Input
+            }], mode: [{
+                type: i0.Input
+            }], value: [{
+                type: i0.Input
+            }], text: [{
+                type: i0.Input
+            }], autoUpdateContent: [{
+                type: i0.Input
+            }], durationBeforeCallback: [{
+                type: i0.Input
+            }] }); })();
 
+    const list = [
+        AceEditorComponent,
+        AceEditorDirective
+    ];
     class AceEditorModule {
     }
-    AceEditorModule.ɵmod = i0["ɵɵdefineNgModule"]({ type: AceEditorModule });
-    AceEditorModule.ɵinj = i0["ɵɵdefineInjector"]({ factory: function AceEditorModule_Factory(t) { return new (t || AceEditorModule)(); }, providers: [], imports: [[]] });
+    AceEditorModule.ɵfac = function AceEditorModule_Factory(t) { return new (t || AceEditorModule)(); };
+    AceEditorModule.ɵmod = /*@__PURE__*/ i0["ɵɵdefineNgModule"]({ type: AceEditorModule });
+    AceEditorModule.ɵinj = /*@__PURE__*/ i0["ɵɵdefineInjector"]({ providers: [], imports: [[]] });
+    (function () { (typeof ngDevMode === "undefined" || ngDevMode) && i0["ɵsetClassMetadata"](AceEditorModule, [{
+            type: i0.NgModule,
+            args: [{
+                    declarations: [
+                        ...list
+                    ],
+                    imports: [],
+                    providers: [],
+                    exports: list
+                }]
+        }], null, null); })();
     (function () { (typeof ngJitMode === "undefined" || ngJitMode) && i0["ɵɵsetNgModuleScope"](AceEditorModule, { declarations: [AceEditorComponent,
             AceEditorDirective], exports: [AceEditorComponent,
             AceEditorDirective] }); })();

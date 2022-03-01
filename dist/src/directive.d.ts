@@ -34,6 +34,6 @@ export declare class AceEditorDirective implements OnInit, OnDestroy {
     set durationBeforeCallback(num: number);
     setDurationBeforeCallback(num: number): void;
     get aceEditor(): any;
-    static ɵfac: i0.ɵɵFactoryDef<AceEditorDirective, never>;
-    static ɵdir: i0.ɵɵDirectiveDefWithMeta<AceEditorDirective, "[ace-editor]", never, { "options": "options"; "readOnly": "readOnly"; "theme": "theme"; "mode": "mode"; "text": "text"; "autoUpdateContent": "autoUpdateContent"; "durationBeforeCallback": "durationBeforeCallback"; }, { "textChanged": "textChanged"; "textChange": "textChange"; }, never>;
+    static ɵfac: i0.ɵɵFactoryDeclaration<AceEditorDirective, never>;
+    static ɵdir: i0.ɵɵDirectiveDeclaration<AceEditorDirective, "[ace-editor]", never, { "options": "options"; "readOnly": "readOnly"; "theme": "theme"; "mode": "mode"; "text": "text"; "autoUpdateContent": "autoUpdateContent"; "durationBeforeCallback": "durationBeforeCallback"; }, { "textChanged": "textChanged"; "textChange": "textChange"; }, never>;
 }

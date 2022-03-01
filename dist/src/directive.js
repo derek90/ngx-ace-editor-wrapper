@@ -120,8 +120,8 @@ export class AceEditorDirective {
     }
 }
 AceEditorDirective.ɵfac = function AceEditorDirective_Factory(t) { return new (t || AceEditorDirective)(i0.ɵɵdirectiveInject(i0.ElementRef), i0.ɵɵdirectiveInject(i0.NgZone)); };
-AceEditorDirective.ɵdir = i0.ɵɵdefineDirective({ type: AceEditorDirective, selectors: [["", "ace-editor", ""]], inputs: { options: "options", readOnly: "readOnly", theme: "theme", mode: "mode", text: "text", autoUpdateContent: "autoUpdateContent", durationBeforeCallback: "durationBeforeCallback" }, outputs: { textChanged: "textChanged", textChange: "textChange" } });
-/*@__PURE__*/ (function () { i0.ɵsetClassMetadata(AceEditorDirective, [{
+AceEditorDirective.ɵdir = /*@__PURE__*/ i0.ɵɵdefineDirective({ type: AceEditorDirective, selectors: [["", "ace-editor", ""]], inputs: { options: "options", readOnly: "readOnly", theme: "theme", mode: "mode", text: "text", autoUpdateContent: "autoUpdateContent", durationBeforeCallback: "durationBeforeCallback" }, outputs: { textChanged: "textChanged", textChange: "textChange" } });
+(function () { (typeof ngDevMode === "undefined" || ngDevMode) && i0.ɵsetClassMetadata(AceEditorDirective, [{
         type: Directive,
         args: [{
                 selector: '[ace-editor]'

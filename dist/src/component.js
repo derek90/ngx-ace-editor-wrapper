@@ -149,12 +149,12 @@ export class AceEditorComponent {
     }
 }
 AceEditorComponent.ɵfac = function AceEditorComponent_Factory(t) { return new (t || AceEditorComponent)(i0.ɵɵdirectiveInject(i0.ElementRef), i0.ɵɵdirectiveInject(i0.NgZone)); };
-AceEditorComponent.ɵcmp = i0.ɵɵdefineComponent({ type: AceEditorComponent, selectors: [["ace-editor"]], inputs: { style: "style", options: "options", readOnly: "readOnly", theme: "theme", mode: "mode", value: "value", text: "text", autoUpdateContent: "autoUpdateContent", durationBeforeCallback: "durationBeforeCallback" }, outputs: { textChanged: "textChanged", textChange: "textChange" }, features: [i0.ɵɵProvidersFeature([{
+AceEditorComponent.ɵcmp = /*@__PURE__*/ i0.ɵɵdefineComponent({ type: AceEditorComponent, selectors: [["ace-editor"]], inputs: { style: "style", options: "options", readOnly: "readOnly", theme: "theme", mode: "mode", value: "value", text: "text", autoUpdateContent: "autoUpdateContent", durationBeforeCallback: "durationBeforeCallback" }, outputs: { textChanged: "textChanged", textChange: "textChange" }, features: [i0.ɵɵProvidersFeature([{
                 provide: NG_VALUE_ACCESSOR,
                 useExisting: forwardRef(() => AceEditorComponent),
                 multi: true
             }])], decls: 0, vars: 0, template: function AceEditorComponent_Template(rf, ctx) { }, styles: ["[_nghost-%COMP%] { display:block;width:100%; }"] });
-/*@__PURE__*/ (function () { i0.ɵsetClassMetadata(AceEditorComponent, [{
+(function () { (typeof ngDevMode === "undefined" || ngDevMode) && i0.ɵsetClassMetadata(AceEditorComponent, [{
         type: Component,
         args: [{
                 selector: 'ace-editor',
